@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/offleaf.png" />
+
+    <title>Jean Chant Tutoring</title>
+
+    <meta name="description" content="Jean Chant Tutoring | Structured literacy and executive function support for Bay Area students" />
+
+    <meta property="og:title" content="Jean Chant Tutoring | Structured literacy and executive function support for Bay Area students" />
+
+    <meta property="og:description" content="Jean Chant Tutoring | Structured literacy and executive function support for Bay Area students" />
+  </head>
+
+  <body>
+    <script>
+      (function () {
+        const redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #faf6ed;
+  color: #485851;
+  font-family: "Source Sans 3", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+.footer {
+  border-top: 1px solid #d8d0c2;
+  margin: 2.5rem auto 0;
+  max-width: 1100px;
+  padding: 1.75rem 0;
+}
+
+.footer-credentials {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+
+  color: #485851;
+  font-size: 0.85rem;
+  font-weight: 600;
+
+  padding-bottom: 2rem;
+}
+
+.footer-bottom {
+  border-top: 1px solid #e2dbd0;
+
+  display: flex;
+  justify-content: space-between;
+
+  color: #485851;
+  font-size: 0.8rem;
+
+  padding-top: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    margin-top: 3rem;
+    padding: 1.5rem 1rem;
+  }
+
+  .footer-credentials {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}
