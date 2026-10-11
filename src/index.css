@@ -38,7 +38,7 @@
 .books-divider {
   display: flex;
   justify-content: center;
-  margin: 2rem 0 0.5rem;
+  margin: 2rem 0 1.5rem;
 }
 
 .books-divider img {
@@ -101,22 +101,11 @@
 
 /* SERVICES */
 
-.home-services {
-  margin-top: 0;
-  padding-top: 0;
-}
-
 .home-services > p {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1rem;
   max-width: 650px;
-}
-
-.service-list {
-  display: grid;
-  gap: 1.25rem;
-  grid-template-columns: repeat(3, 1fr);
-  margin-top: 2.5rem;
 }
 
 .service-list div {
@@ -128,25 +117,6 @@
   padding: 1.5rem;
 }
 
-.service-list div:nth-child(1) {
-  background-color: #caddc8;
-}
-
-.service-list div:nth-child(2) {
-  background-color: #bcd6df;
-}
-
-.service-list div:nth-child(3) {
-  background-color: #f0c5b4;
-}
-
-.service-list h3 {
-  font-size: 1.25rem;
-  font-weight: 600;
-  line-height: 1.3;
-  margin: 0;
-}
-
 .services-heading {
   display: inline-block;
   position: relative;
@@ -154,16 +124,6 @@
 
 .services-heading h2 {
   margin: 0;
-}
-
-.services-pencils {
-  height: 300px;
-  object-fit: contain;
-  position: absolute;
-  right: calc(100% + 260px);
-  top: 104%;
-  transform: translateY(-50%);
-  width: auto;
 }
 
 /* MOBILE */
@@ -178,21 +138,11 @@
   }
 
   .books-divider {
-    margin: 1.5rem 0 0.25rem;
+    margin: 1.5rem 0 1.25rem;
   }
 
   .books-divider img {
     height: 95px;
     max-width: 90%;
-  }
-
-  .service-list {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    margin-top: 2rem;
-  }
-
-  .service-list div {
-    min-height: 125px;
   }
 }

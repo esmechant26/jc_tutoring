@@ -38,7 +38,7 @@ function Home() {
 
         <p>I provide structured literacy and executive function support for Bay Area students who need personalized, expert help with reading and writing.</p>
 
-        <div className="service-list">
+        {/* <div className="service-list">
           <div>
             <h3>Reading Remediation</h3>
           </div>
@@ -50,7 +50,7 @@ function Home() {
           <div>
             <h3>Executive Functioning</h3>
           </div>
-        </div>
+        </div> */}
       </section>
     </div>
   );
